@@ -1,0 +1,17 @@
+Inicio: 2026-11-05T21:57:00-03:00
+Arquivo: C:\Users\Ysnun\OneDrive\Documentos\Yara\CoeCode\trabalho_paralelismo_parteA\yellow_tripdata_2016-02.csv
+Sistema operacional: Windows-11-10.0.26200-SP0
+Processador: Intel64 Family 6 Model 154 Stepping 4, GenuineIntel
+Nucleos logicos: 12
+Python: 3.13.5
+pandas: 3.1.1
+Chunksize: 100000
+Blocos processados: 114
+Versao sequencial: 47.61 s
+Versao paralela: 28.40 s
+Workers: 4
+Resultados equivalentes: True
+Leitura selecionada (6 colunas): 11.82 s
+Leitura completa (19 colunas): 31.93 s
+Reducao no tempo de leitura com usecols: 63.00%
+Fim: 2026-11-05T21:59:01-03:00

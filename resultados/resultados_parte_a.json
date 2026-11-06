@@ -1,0 +1,57 @@
+{
+  "quantidade_total_corridas": 11382049,
+  "distancia_total_milhas": 57601849.97,
+  "valor_total_arrecadado": 177589959.19,
+  "media_passageiros_por_corrida": 1.655208,
+  "maior_valor_corrida": 154832.14,
+  "menor_valor_corrida": -450.3,
+  "corridas_por_forma_pagamento": {
+    "1": {
+      "descricao": "cartao de credito",
+      "quantidade": 7680359
+    },
+    "2": {
+      "descricao": "dinheiro",
+      "quantidade": 3647035
+    },
+    "3": {
+      "descricao": "sem cobranca",
+      "quantidade": 40274
+    },
+    "4": {
+      "descricao": "disputa",
+      "quantidade": 14381
+    }
+  },
+  "top_5_dias": [
+    {
+      "data": "2016-02-13",
+      "corridas": 448611
+    },
+    {
+      "data": "2016-02-27",
+      "corridas": 440935
+    },
+    {
+      "data": "2016-02-26",
+      "corridas": 437798
+    },
+    {
+      "data": "2016-02-12",
+      "corridas": 434350
+    },
+    {
+      "data": "2016-02-11",
+      "corridas": 431206
+    }
+  ],
+  "execucao": {
+    "arquivo": "C:\\Users\\Ysnun\\OneDrive\\Documentos\\Yara\\CoeCode\\trabalho_paralelismo_parteA\\yellow_tripdata_2016-02.csv",
+    "chunksize": 100000,
+    "numero_de_blocos": 114,
+    "tempo_sequencial_segundos": 47.6065,
+    "tempo_paralelo_segundos": 28.4007,
+    "workers": 4,
+    "resultados_equivalentes": true
+  }
+}
